@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+.inner a {
+    text-decoration: none;
+    margin-left: 90px;
+}
+
+.inner {
+    display: block;
+}
+
+.header {
+    width: 100%;
+    height: 65px;
+    background-color: #2f3640;
+    position: fixed;
+    top: 0;
+    color: white;
+    justify-content: center;
+}
+
+.section1 {
+    background-color: white;
+}
+
+.section1 h2 {
+    text-align: center;
+}
+
+.circlecontainer {
+    display: flex;
+    justify-content: center;
+}
+
+#circle1 {
+    margin: 65px;
+    background-image: url(Sanat.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#circle2 {
+    margin: 65px;
+    background-image: url(#);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.circle {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: lightsalmon;
+}
+
+#names {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+ul#names li {
+    float: left;
+}
+
+ul#names li a {
+    display: block;
+    color: #000000;
+    font-weight: bold;
+    padding: 0px 100px 25px 150px;
+    text-decoration: none;
+}
+
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    height: 100px;
+}
+
+#navbar img {
+    width: auto;
+    height: 100%;
+}
+
+ul#navbar li {
+    float: right;
+}
+
+ul#navbar li a {
+    display: block;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+
+ul#navbar li a:hover {
+    background-color: #ef233c;
+    color: white;
+}

@@ -1,0 +1,44 @@
+h1,
+p {
+  text-align: center;
+}
+
+table {
+  text-align: left;
+  line-height: 20px;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 2px solid #34495e;
+  width: 80%;
+  margin: 20px auto;
+  border-radius: 5px;
+}
+
+thead tr:first-child {
+  background: #34495e;
+  color: #fff;
+  border: none;
+  line-height: 40px;
+}
+
+thead tr th:last-child {
+  text-align: center;
+  line-height: 40px;
+}
+
+thead tr th:nth-child(3) {
+  padding-left: 20px;
+}
+
+th:first-child,
+td:first-child {
+  padding: 0 15px 0 20px;
+}
+
+th {
+  font-weight: bold;
+}
+
+thead tr:last-child th {
+  border-bottom: 3px solid #ddd;
+}
