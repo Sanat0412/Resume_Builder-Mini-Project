@@ -15,7 +15,7 @@
   </div>
   <div id="intro">
     <p>
-      These are some examples of different themes of templates for your resumes.
+      Here you will get the Template which our University follow. 
     </p>
   </div>
   <table>
