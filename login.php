@@ -18,6 +18,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $sql = "SELECT * FROM user_data WHERE username='$name'";
     $result = mysqli_query($conn, $sql);
     if($count=mysqli_num_rows($result)>0){
+    
         while($row = mysqli_fetch_array($result))
         {
           if($row['username'] == $name)
@@ -31,7 +32,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                   echo "Invalid Password";
               }
             }
-           
+            else{
+            echo "no user found";
+            }
           
           
             /* if (strcmp($row['password'], $pass) !== 0 ) {

@@ -19,7 +19,7 @@
                 <h2>Profile Image</h2>
                 <div class="mb-3">
                     <label class="form-label">Select a square image 1:1 (Recommended)</label>
-                    <input class="form-control" name="profile_image" type="file" required>
+                    <input class="form-control" name="profile_image"  type="file" required>
                 </div>
             </div>
             <div class="border border-dark p-3 mb-3">    
@@ -36,7 +36,7 @@
                 </div>
                 <div class="mb-3">
                     <label class="form-label">Profession</label>
-                    <input type="text" class="form-control" name="profession" required>
+                    <input type="text" class="form-control" autoComplete="off" name="profession" required>
                 </div>
                 <div class="mb-3">
                     <label class="form-label">Email address</label>
@@ -52,7 +52,7 @@
                 <h2>Skills (Max:5)</h2>
                 <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">Skillset Name</label>
-                    <input type="text" class="form-control" name="skill1" required>
+                    <input type="text" class="form-control" autoComplete="off" name="skill1" required>
                     <select class="form-select mt-2" name="skill_level1" required>
                         <option value="">Select stars based upon your skill level</option>
                         <option value="1">1 - Novice</option>
@@ -71,7 +71,7 @@
                 <h2>Hobbies (Max:4)</h2>
                 <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">Hobby</label>
-                    <input type="text" name="hobby1" class="form-control" required>
+                    <input type="text" name="hobby1" autoComplete="off" class="form-control" required>
                 </div>
                 <div id="addHobby"></div>
                 <div class="mb-3">
@@ -97,11 +97,11 @@
                 <div class="mb-3 d-flex justify-content-between">
                     <div>
                         <label for="exampleInputEmail1" class="form-label">From</label>
-                        <input type="text" name="from1" class="form-control">
+                        <input type="date" name="from1" class="form-control">
                     </div>
                     <div>
                         <label for="exampleInputEmail1" class="form-label">To</label>
-                        <input type="text" name="to1" class="form-control">
+                        <input type="date" name="to1" class="form-control">
                     </div>
                 </div>
                 <div class="mb-3">

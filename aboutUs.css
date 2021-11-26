@@ -36,28 +36,29 @@
     display: flex;
     justify-content: center;
 }
+.circle {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    /* background-color: lightsalmon; */
+}
 
 #circle1 {
     margin: 65px;
-    background-image: url(Sanat.jpg);
+    background-image: url('./Sanat.jpg');
     background-position: center;
     background-size: cover;
 }
 
 #circle2 {
     margin: 65px;
-    background-image: url(1637815456596.jpg);
+    background-image: url('./prashant.jpg');
     background-position: center;
     background-size: cover;
 
 }
 
-.circle {
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    background-color: lightsalmon;
-}
+
 
 #names {
     list-style-type: none;

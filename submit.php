@@ -198,7 +198,7 @@ if (Token == $_POST['token']) {
           for ($i = 0; $i < count($institutes); $i++) {
             echo "<ul>
             <li>
-              <div class='msg-1'>" . $froms[$i] . "-" . $tos[$i] . " | " . ucwords($degrees[$i]) . ", " . $grades[$i] . "</div>
+              <div class='msg-1'>" . $froms[$i] . " - " . $tos[$i] . " | " . ucwords($degrees[$i]) . ", " . $grades[$i] . "</div>
               <div class='msg-2'>" . ucwords($institutes[$i]) . "</div>
             </li>
           </ul>";
@@ -228,7 +228,7 @@ if (Token == $_POST['token']) {
       </div>
     </div>
   </div>
-  <button onclick="window.print()" class="download" style="height: 50px; width: 80px;background: blue; border-radius: 8px; border: none; color: white; font-size: 10px;">Download</button>
+  <button onclick="window.print()" class="download" style="font-weight: bold; font-size:18px;height: 60px; width: 140px;background: blue; border-radius: 8px; border: none; color: white; cursor:pointer;margin-left:570px; margin-top:30px; margin-bottom:100px">Download</button>
 </body>
 
 </html>
