@@ -54,8 +54,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 }
   /*  $row = mysqli_fetch_array($result, MYSQLI_ASSOC);
     $count = mysqli_num_rows($result);
-
-
     if (strcmp($row['password'], $pass) !== 0 ) {
         echo "Password Incorrect!!";
     } else if (strcmp($row['username'], $name) !== 0) {
