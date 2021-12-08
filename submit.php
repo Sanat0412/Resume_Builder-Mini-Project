@@ -201,8 +201,8 @@ if (Token == $_POST['token']) {
               <div class='msg-1'>" . $froms[$i] . " - " . $tos[$i] . " | " . ucwords($degrees[$i]) . ", " . $grades[$i] . "</div>
               <div class='msg-2'>" . ucwords($institutes[$i]) . "</div>
             </li>
-          </ul>";
-          }
+          </ul>";   }
+          
           ?>
         </div>
       </div>
