@@ -1,6 +1,6 @@
 <?php
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    $name = $_POST['name'];
+    $email = $_POST['name'];
     // $email = $_POST['email'];
     $pass = $_POST['psw'];
     if(empty($pass))
@@ -15,17 +15,17 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $database = "resume_mini";
 
     $conn = mysqli_connect($servername, $username, $password, $database);
-    $sql = "SELECT * FROM user_data WHERE username='$name'";
+    $sql = "SELECT * FROM user_data WHERE email='$email'";
     $result = mysqli_query($conn, $sql);
     if($count=mysqli_num_rows($result)>0){
     
         while($row = mysqli_fetch_array($result))
         {
-          if($row['username'] == $name)
+          if($row['email'] == $email)
           {
               if($row['password'] == $pass)
               {
-                echo "Welcome " . $row['username'] . "<br>";
+                echo "Welcome " . $row['email'] . "<br>";
                 header("refresh:2;url=afterLogin.php");
               }
               else{
