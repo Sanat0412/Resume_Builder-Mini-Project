@@ -26,7 +26,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
               if($row['password'] == $pass)
               {
                 echo "Welcome " . $row['email'] . "<br>";
-                header("refresh:2;url=afterLogin.php");
+                header("refresh:2;url=dashboard.php");
               }
               else{
                   echo "Invalid Password";

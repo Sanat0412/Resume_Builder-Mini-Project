@@ -229,6 +229,9 @@ if (Token == $_POST['token']) {
     </div>
   </div>
   <button onclick="window.print()" class="download" style="font-weight: bold; font-size:18px;height: 60px; width: 140px;background: blue; border-radius: 8px; border: none; color: white; cursor:pointer;margin-left:570px; margin-top:30px; margin-bottom:100px">Download</button>
+  <a href="./login.php"> 
+  <button  class="download" style="font-weight: bold; font-size:18px;height: 60px; width: 140px;background: blue; border-radius: 8px; border: none; color: white; cursor:pointer;margin-left:200px; margin-top:30px; margin-bottom:100px">Logout</button>
+  </a>
 </body>
 
 </html>
