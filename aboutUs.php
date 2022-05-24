@@ -26,12 +26,13 @@
             <h2>Team Members</h2>
             <div class="circlecontainer">
                 <div class="inner">
-                    <div class="circle" id="circle1"></div>
+                    <div class="circle" id="ca"></div>
                     <a href="https://github.com/Sanat0412">Sanat Kumar Dubey</a>
                 </div>
                 <div class="inner">
-                    <div class="circle" id="circle2"></div>
-                    <a href="https://github.com/VermaOverDrive">Aditya Verma</a>
+                    <div class="circle" id="cb"></div>
+                    <a href="https://github.com/vermaOverDrive">Aditya Verma</a>
+                    
                 </div>
             </div>
         </div>

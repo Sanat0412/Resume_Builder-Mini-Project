@@ -43,20 +43,20 @@
     /* background-color: lightsalmon; */
 }
 
-#circle1 {
+#ca{
     margin: 65px;
     background-image: url('./Sanat.jpg');
     background-position: center;
     background-size: cover;
 }
 
-#circle2 {
+#cb {
     margin: 65px;
-    background-image: url('./verma.jpg');
+    background-image: url('./Verma.jpg');
     background-position: center;
     background-size: cover;
-
 }
+
 
 
 
