@@ -31,7 +31,7 @@
                 </div>
                 <div class="inner">
                     <div class="circle" id="circle2"></div>
-                    <a href="https://github.com/prashant90240">Prashant</a>
+                    <a href="https://github.com/VermaOverDrive">Aditya Verma</a>
                 </div>
             </div>
         </div>

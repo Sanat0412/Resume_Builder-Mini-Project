@@ -87,7 +87,7 @@
                         <i class="fa fa-envelope"></i><span>sanat.dubey_cs19@gla.ac.in</span>
                     </li>
                     <li>
-                        <i class="fa fa-envelope"></i><span>prashant.gla_cs.aiml19@gla.ac.in</span>
+                        <i class="fa fa-envelope"></i><span>aditya.verma_cs19@gla.ac.in</span>
                     </li>
             
                 </ul>
